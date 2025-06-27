@@ -1039,7 +1039,7 @@ export default function Home() {
               <div className="aspect-video bg-black flex items-center justify-center">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/VWXaabXVHPM?si=RpNf2vr_MPAYTg9A"
+                src="https://youtu.be/8-QmQl9U82A"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
