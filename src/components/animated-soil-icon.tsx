@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 
 export function AnimatedSoilIcon({ className = "" }: { className?: string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const animationFrameId = useRef<number>()
+  const animationFrameId = useRef<number | null>(null)
 
   useEffect(() => {
     const canvas = canvasRef.current

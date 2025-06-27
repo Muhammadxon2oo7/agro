@@ -15,7 +15,7 @@ interface Particle {
 export function AnimatedSoilParticles() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const particles = useRef<Particle[]>([])
-  const animationFrameId = useRef<number>()
+  const animationFrameId = useRef<number | null>(null)
 
   useEffect(() => {
     const canvas = canvasRef.current
